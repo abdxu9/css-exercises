@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -67,3 +68,35 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+.container-row{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  gap: 15px;
+}
+
+.container-col{
+  display:flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container-header{
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container-footbut{
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.header{
+  font-weight: bold ;
+  font-size: 20px;
+}
+
